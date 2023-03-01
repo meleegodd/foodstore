@@ -1,0 +1,127 @@
+.feature__subtitle {
+    color: var(--red-color);
+    margin-bottom: 20px;
+}
+
+.feature__title span {
+    color: var(--red-color);
+}
+
+.feature__item {
+    text-align: center;
+    padding: 16px 48px;
+}
+
+.feature__item img {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.feature__item-title {
+    font-weight: bold;
+}
+
+.feature__item p {
+    color: #777;
+}
+
+.home__category-food {
+    background-color: var(--red-color);
+    margin-top: 30px;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+.home__category-food button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.home__category-food button img {
+    width: 20px;
+    height: 20px;
+}
+
+.home__category--active {
+    background-color: #fff !important;
+    color: var(--red-color) !important;
+    border-radius: 5px;
+}
+
+.home__description-title span {
+    color: var(--red-color);
+}
+
+.home__description-desc {
+    color: #777;
+    line-height: 28px;
+}
+
+.home__choose-us--title {
+    font-weight: 600;
+}
+
+.home__choose-us--title i {
+    font-weight: 500 !important;
+    color: var(--red-color);
+}
+
+.home__choose-us--desc {
+    color: #777;
+}
+
+.home__testimonial-subtitle {
+    color: var(--red-color);
+}
+
+.home__testimonial-title span {
+    color: var(--red-color);
+}
+
+.home__testimonial-desc {
+    color: #777;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .feature__item h5 {
+        font-size: 0.9rem;
+    }
+
+    .feature__item p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .feature__subtitle {
+        font-size: 1rem;
+    }
+
+    .home__category-food buttom {
+        padding: 5px 15px;
+    }
+
+    .home__description-desc {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .home__choose-us--title {
+        font-size: 0.8rem;
+    }
+
+    .home__choose-us--desc {
+        font-size: 0.7rem;
+    }
+
+    .home__testimonial-subtitle {
+        font-size: 1rem;
+    }
+
+    .home__testimonial-desc {
+        font-size: 0.8rem;
+    }
+}

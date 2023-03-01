@@ -1,0 +1,74 @@
+.banner__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+
+.banner__btns button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: 600;
+}
+
+.banner__btns--order {
+    background-color: var(--red-color);
+    color: #fff;
+}
+
+.banner__btns--order:hover {
+    background-color: var(--black-color);
+    color: #fff;
+}
+
+.banner__btns--all-foods {
+    background-color: transparent;
+    border: 1px solid var(--red-color) !important;
+    color: var(--red-color);
+}
+
+.banner__service {
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.banner__service--icon i {
+    padding: 5px;
+    background-color: var(--red-color);
+    color: #fff;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner__content h5 {
+        font-size: 1rem;
+    }
+
+    .banner__title {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .banner__btns button {
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+
+    .banner__service {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .banner__content {
+        text-align: center;
+    }
+
+    .banner__btns {
+        justify-content: center;
+    }
+
+    .banner__service {
+        justify-content: center;
+    }
+}
